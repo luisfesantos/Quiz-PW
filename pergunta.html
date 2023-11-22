@@ -1,43 +1,41 @@
-<!DOCTYPE html>
-
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Quiz</title>
-</head>
-<body>
-    <div>
-        <span>Nível: A</span> 
-        <span>Pontos: 0</span>
-        <span>Pulos: 0</span>
-        <span>Erros: 0</span>
-    </div>
-    <div>
-        <h3>Quem descobriu o Brasil?</h3>
-    </div>
-    <div>
+<html>
+    <head>
+        <title>Quiz</title>
+    </head>
+    <body>
         <div>
-            <input type="radio">
-            <label>Tião Gavião</label>
+            <span>Nível: A</span>            
+            <span>Pontos: 0</span>
+            <span>Pulos: 0</span>
+            <span>Erros: 0</span>
         </div>
         <div>
-            <input type="radio">
-            <label>Napoleão</label>
+            <h3 id="pergunta">Quem descobriu o Brasil?</h3>
         </div>
         <div>
-            <input type="radio">
-            <label>Pedro Alvarez Cabral</label>
+            <div>
+                <input type="radio" name="resposta" value="1"/>
+                <label id="resposta01">Tião Gavião</label>
+            </div>
+            <div>
+                <input type="radio" name="resposta" value="2"/>
+                <label id="resposta02">Napoleão</label>
+            </div>            
+            <div>
+                <input type="radio" name="resposta" value="3"/>
+                <label id="resposta03">Pedro Alvarez Cabral</label>
+            </div>
+            <div>
+                <input type="radio" name="resposta" value="4"/>
+                <label id="resposta04">Pero Vaz de Caminha</label>
+            </div>
         </div>
+        <hr/>
         <div>
-            <input type="radio">
-            <label>Pero Vaz de Caminha</label>
+            <button>Confirmar</button>
+            <button>Pular</button>
+            <button>Parar</button>
         </div>
-    </div>
-    <hr>
-    <div>
-        <button>Confirmar</button>
-        <button>Pular</button>
-        <button>Parar</button>
-    </div>
-</body>
+    </body>
+    <script type="module" src="/assets/scripts/quiz.js"></script>
 </html>
