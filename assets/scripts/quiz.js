@@ -14,7 +14,8 @@ let spanPulos = document.getElementById('spanPulos');
 let btnConfirmar = document.getElementById('bntConfirmar');
 let btnPular = document.getElementById('btnPular');
 btnPular.addEventListener('click', () => pular());
-let btnParar = document.getElementById('bntParar');
+
+let btnParar = document.getElementById('btnParar');
 btnParar.addEventListener('click', () => parar());
 
 

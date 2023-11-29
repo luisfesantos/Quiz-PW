@@ -1,0 +1,4 @@
+.container-btnQuiz{
+    display: flex;
+    justify-content: space-evenly;
+}
